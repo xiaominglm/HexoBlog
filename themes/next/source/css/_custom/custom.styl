@@ -64,23 +64,23 @@
   text-align: center;
 }
 
-  .post-button a {
-    color: #fff;
-    padding: 0;
-    font-size: 14px;
-    background: none;
-    border: none;
-    border-bottom: 2px solid #666;
-    transition-property: border;
-    margin: initial;
-    font-size: 15px;
-    background: #686868;
-    margin: 0 4px 8px 4px;
-    padding: 0 20px;
-    transition: 0.2s ease-out;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    border-radius: 16px;
-  }
+.post-button a {
+  color: #fff;
+  padding: 0;
+  font-size: 14px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #666;
+  transition-property: border;
+  margin: initial;
+  font-size: 15px;
+  background: #686868;
+  margin: 0 4px 8px 4px;
+  padding: 0 20px;
+  transition: 0.2s ease-out;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 16px;
+}
 
 
 .post {
@@ -182,7 +182,7 @@ ol{
   text-align: left
   color: #000;
 }
- /* 设置有序和无序的图标样式 */
+/* 设置有序和无序的图标样式 */
 .posts-expand .post-body ol li:before{
   display: block;
   float: left;
@@ -348,7 +348,7 @@ pre, .highlight{
 /*手机屏幕下设置*/
 @media (max-width: 767px) {
 
-/* 按钮设置*/
+  /* 按钮设置*/
   .menu {
     display: flex;
     margin-left: -4px;
@@ -385,6 +385,11 @@ pre, .highlight{
     top: 15px;
   }
 
+  .site-meta {
+    /* float: none; */
+    float: none!important;
+  }
+
   .brand {
     padding: 0;
     background: 0 0;
@@ -417,9 +422,11 @@ pre, .highlight{
 
   .site-nav {
     border-top: none!important;
-    padding-top: 1px;
-    margin: none!important;
-    padding: none!important;
+    padding-top: 80px;
+  }
+  .site-nav {
+    margin: 0 50px;
+    clear: both;
   }
   div.site-brand-wrapper {
     height: 0;
@@ -427,8 +434,16 @@ pre, .highlight{
   }
 
   .site-nav-toggle {
-    margin-right: 20px;
-    /*margin-top: -4px;*/
+    top: 36px;
+    left: 304px;
+  }
+
+  .site-nav-toggle {
+    position: absolute;
+  }
+
+  .main {
+    margin-top: 82px;
   }
   /*.header{
     background: url(/images/header-bk.jpg);
@@ -483,11 +498,11 @@ pre, .highlight{
   }
 
   /*手机端显示代码行数背景设置*/
-.highlight .gutter pre{
-  padding-left: 2px;
-  padding-right: 2px;
-  text-align: center;
-}
+  .highlight .gutter pre{
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+  }
 
   /*手机端显示代码行数字体大小*/
   .highlight, pre{
@@ -496,13 +511,13 @@ pre, .highlight{
 
   /*手机端显示代码字体大小*/
   .code span{
-  font-size: 12px;
-}
+    font-size: 12px;
+  }
 
-div#comments.comments.v{
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-}
+  div#comments.comments.v{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 
 }
 
