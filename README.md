@@ -6,9 +6,9 @@
 
 **博客基于[Hexo](https://hexo.io/)框架搭建，用到[hexo-theme-next](http://theme-next.iissnan.com/)主题,版本为5.1.4,并在此基础之上做了很多修改,增加了一些新的特性和功能，博客地址：[http://www.lmdream.cn/](http://www.lmdream.cn/)**
 
-**简单使用方法**：
+**使用方法**：
 强烈推荐一位`Sanarous`博主的博客,这篇文章[Hexo博客+Next主题深度优化与定制](https://bestzuo.cn/posts/blog-establish.html)里面详细的写了Hexo博客的搭建和美化主题
-运行命令`hexo  c`（清除生成文件），`hexo g`（生成网页）， `hexo  s`（本地预览），`hexo d`（部署）
+
 
 ## 特性
 
